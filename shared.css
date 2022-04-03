@@ -72,10 +72,7 @@ body {
 }
 
 .main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 122px);
-  vertical-align: middle;
+  display: none;
 }
 
 .main-nav__items {
@@ -134,8 +131,8 @@ body {
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 1rem 0;
 }
 
 .main-footer__link a {
@@ -199,4 +196,26 @@ body {
 
 .open {
     display: block !important;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-header__brand {
+    height: 2rem;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
+
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
