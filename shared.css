@@ -246,6 +246,7 @@ main {
 }
 
 @keyframes wiggle {
+<<<<<<< HEAD
   0% {
     transform: rotateZ(0);
   }
@@ -253,6 +254,12 @@ main {
     transform: rotateZ(-10deg);
   }
   100% {
+=======
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+>>>>>>> 75bc28d232a63f41276406859a311f3a0962435b
     transform: rotateZ(10deg);
   }
 }
