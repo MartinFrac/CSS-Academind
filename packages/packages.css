@@ -14,7 +14,7 @@ main {
 .package {
   width: 80%;
   margin: 1rem 0;
-  border: 4px solid #0e4f1f;
+  border: 4px solid var(--dark-green, #0e4f1f);
   border-left: none;
   position: relative;
   overflow: hidden;
@@ -58,9 +58,9 @@ main {
 
 .package__info {
   padding: 1rem;
-  border: 1px solid #0e4f1f;
+  border: 1px solid var(--dark-green, #0e4f1f);
   font-size: 1.2rem;
-  color: #0e4f1f;
+  color: var(--dark-green, #0e4f1f);
   background: white;
   font-family: "Anonymous Pro", sans-serif;
   font-weight: 700;
@@ -78,7 +78,7 @@ main {
   background: rgba(234, 252, 237, 0.95);
   float: right;
   border-right: none;
-  border-left: 4px solid #0e4f1f;
+  border-left: 4px solid var(--dark-green, #0e4f1f);
   text-align: right;
 }
 
@@ -109,11 +109,11 @@ main {
 
 @media (min-width: 1500px) {
   .package {
-    border: 4px solid #0e4f1f;
+    border: 4px solid var(--dark-green, #0e4f1f);
   }
 
   #free {
-    border-right: 4px solid #0e4f1f;
+    border-right: 4px solid var(--dark-green, #0e4f1f);
   }
 
   #free:hover,
